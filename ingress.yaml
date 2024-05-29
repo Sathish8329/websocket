@@ -11,7 +11,7 @@ spec:
   - host: "integrations.kovaion.ai"
     http:
       paths:
-      - path: /
+      - path: /websocket/socket.io
         pathType: Prefix
         backend:
           service:
