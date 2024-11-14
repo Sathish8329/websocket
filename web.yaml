@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: websocket
-        image: sathish8329/websocket:6
+        image: sathish8329/websocket:5
         ports:
         - containerPort: 8006
 
